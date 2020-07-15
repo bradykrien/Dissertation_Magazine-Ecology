@@ -16,7 +16,7 @@ Author Information (Name, Institution, Address, Email)
 				Lindsay Mattock, Assistant Professor of History, University of Iowa
 	Data Support: Nikki White, Digital Humanities Librarian, University of Iowa
 
-Date of data download: 2019-07-03 
+Date of data download: 2019-07-03
 
 This project made possible by support from:
 	The University of Iowa Graduate College
@@ -28,7 +28,7 @@ This project made possible by support from:
 
 --------------------------
 SHARING/ACCESS INFORMATION
--------------------------- 
+--------------------------
 
 Licenses/restrictions placed on the data, or limitations of reuse:
 
@@ -38,16 +38,18 @@ Citation for and links to publications that cite or use the data:
 
 Links to other publicly accessible locations of the data:
 
-Links/relationships to ancillary or related data sets: 
+Links/relationships to ancillary or related data sets:
 
 
 --------------------
 DATA & FILE OVERVIEW
 --------------------
 
+Data were retrieved from the HathiTrust Research Center through their Extracted Features Library.
+
 File list (filenames, directory structure (for zipped files) and brief description of all data files):
 
-Relationship between files, if important for context:  
+Relationship between files, if important for context:
 
 Additional related data collected that was not included in the current data package:
 
@@ -81,10 +83,10 @@ DATA-SPECIFIC INFORMATION <Create sections for each datafile or set, as appropri
 
 Number of variables:
 
-Number of cases/rows: 
+Number of cases/rows:
 
 Variable list, defining any abbreviations, units of measure, codes or symbols used:
-   
+
 Missing data codes:
 
 Specialized formats or other abbreviations used:
