@@ -31,14 +31,12 @@ print('variables imported')
 cwd = os.getcwd()
 today = date.today()
 run_date = today.strftime("%d.%m.%Y")
-run = f"Argon_Run_{run_date}"
-run_dir = (cwd+'/RunDirectories/'+run)
-os.chdir(run_dir)
-
+run_dir = (cwd+'/RunDirectories/'+run_date+'/'+filename)
 #create output directory for each run date
 if not os.path.exists(run_dir):
     os.makedirs(run_dir)
 print('directory created')
+os.chdir(run_dir)
 
 #create the Argon Run Report
 run_report = f"ArgonRunReport_{filename}_{run_date}.txt"
@@ -201,6 +199,7 @@ end_time = end_now.strftime("%H.%M.%S")
 duraction = end_now - start_now
 
 #report writing
+f = open(run_report, "w+")
 f.write(f"Argon run begun at {start_time}\n")
 f.write(f"Completed on: {end_time}\n")
 f.write(f"Run Time: {duration}\n")
