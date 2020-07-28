@@ -21,7 +21,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 wnl = WordNetLemmatizer()
-from nltk import word_tokenize
+
 #### added print
 print('Packages imported')
 
@@ -186,7 +186,7 @@ print('topic models created')
 
 #This exports the topics and their relative weights to a csv file
 top_words_per_topic = []
-for t in range(lda_.num_topics):
+for t in range(lda.num_topics):
     top_words_per_topic.extend([(t, ) + x for x in lda.show_topic(t, topn = 20)])
 
 pd.DataFrame(top_words_per_topic, columns=['Topic', 'Word', 'P']).to_csv("top_words.csv")
