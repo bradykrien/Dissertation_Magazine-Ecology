@@ -3,7 +3,7 @@
 This directory contains code for the visualizations taht I developed along with some sample visualizations and data that generated through the course of this dissertation project. 
 
 ### Visualizations
-__TopicClouder__
+__TopicClouder__<br>
 This visualization file is a python script that can be called on a csv of topics exported from gensim. The csv should be in a three colum format with "Topic" "Word" and "P" (word frequency/rate) as the columns. Calling this script on a topic file will create a visualizations subdirectory within the current working directory and generate a png wordcloud for each of the topics within this directory. The only set parameters for these wordclouds is that they have a whitebackground and are sized to 600x400 pixels. Additional parameters (scale, font size, color, word limits, etc.) can be added into the script based on the parameters for wordclouds found here: https://amueller.github.io/word_cloud/generated/wordcloud.WordCloud.html
 
 ### Sample Data
