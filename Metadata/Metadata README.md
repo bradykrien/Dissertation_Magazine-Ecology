@@ -1,6 +1,6 @@
 ## Overview
 
-This directory contains metadata files for the HTRC dataset used in this project to make it easier to access the datasets through the HTRC. More information about the data for this project can be found in the __Dissertation Data ReadMe.md__ file in the main directory of this repository. 
+This directory contains metadata files for the HTRC dataset used in this project to make it easier to access the datasets through the HTRC. More information about the data for this project can be found in the __Data ReadMe.md__ file in the main directory of this repository. 
 
 There are three files: 
 - __HTRCMagList.xlsx__: This is an excel file with two worksheets containing the HTRC metadata. The filtering functions in the tables make it easier to select subsets of the dataset to model. It was derived and edited from the tab separated values files retrieved from both HTRC collections. 
