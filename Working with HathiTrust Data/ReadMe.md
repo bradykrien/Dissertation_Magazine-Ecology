@@ -15,3 +15,4 @@ After moving the pathlist.csv file to the directory to which you want the EF fil
 
 rsync -av --no-relative --files-from=pathlist.txt data.analytics.hathitrust.org::features-2020.03/ .
 
+This downloads the .json.bz2 files for each of the volumes in the collection. These can then be manipulated and analyzed using the htrc-feature-reader library. Peter Organisciak and Boris Capitanu have a great introductory tutorial to the library and how to use it in their ["Text Mining in Python through the HTRC Feature Reader"](https://programminghistorian.org/en/lessons/text-mining-with-extracted-features) lesson on the [Programming Historian](https://programminghistorian.org/)
