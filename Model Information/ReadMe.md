@@ -13,4 +13,4 @@ The topic scores for each of the pages in the dataset are stored in the popular_
 ### Recreation Magazine Dataset
 
 
-<a name="footnote1">1</a>: For an excellent comparison of the affordances of different formats for saving pandas dataframes, see Ilia Zaitsev, "The Best format to Save Pandas Data," *towards data science,* March 14, 2019, /web/20211213112524/https://towardsdatascience.com/the-best-format-to-save-pandas-data-414dca023e0d?gi=2ab11a795f84. 
+<a name="footnote1">1</a>: For an excellent comparison of the affordances of different formats for saving pandas dataframes, see Ilia Zaitsev, "The Best format to Save Pandas Data," *towards data science,* March 14, 2019, https://web.archive.org/web/20211213112524/https%3A%2F%2Ftowardsdatascience.com%2Fthe-best-format-to-save-pandas-data-414dca023e0d%3Fgi%3D2ab11a795f84.  
